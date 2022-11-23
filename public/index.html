@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <meta name="description" content="TallyStix App Landing Page" />
+    <meta name="author" content="Rogue Reality"/>
+    <meta name="generator" content="TallyStix" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/favicon.png" />
+
+    <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css"/>
+    <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css" />
+    <link rel="stylesheet" href="plugins/slick/slick.css"/>
+    <link rel="stylesheet" href="plugins/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="plugins/fancybox/jquery.fancybox.min.css"/>
+    <link rel="stylesheet" href="plugins/aos/aos.css"/>
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -24,11 +30,244 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
-  </head>
-  <body>
+    <title>TallyStix</title>
+</head>
+
+<body class="body-wrapper" data-spy="scroll" data-target=".privacy-nav">
+  
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+
+    <nav class="navbar main-nav navbar-expand-lg px-2 px-sm-0 py-2 py-lg-0">
+      <div class="container">
+          <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo" /></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="ti-menu"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav ml-auto">
+  <li class="nav-item dropdown active">
+    
+
+  </li>
+  
+  <li class="nav-item @@about">
+    <a class="nav-link" href="#about">About</a>
+  </li>
+  <li class="nav-item @@contact">
+    <a class="nav-link" href="/contact">Contact</a>
+  </li>
+  <li class="nav-item @@faq">
+    <a class="nav-link" href="/faq">FAQ</a>
+  </li>
+  
+  
+</ul>
+</div>
+</div>
+</nav>
+     
+      <section class="section gradient-banner">
+          <div class="shapes-container">
+              <div class="shape" data-aos="fade-down-left" data-aos-duration="1500" data-aos-delay="100">
+              </div>
+              <div class="shape" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100">
+              </div>
+              <div class="shape" data-aos="fade-up-right" data-aos-duration="1000" data-aos-delay="200">
+              </div>
+              <div class="shape" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+              </div>
+              <div class="shape" data-aos="fade-down-left" data-aos-duration="1000" data-aos-delay="100">
+              </div>
+              <div class="shape" data-aos="fade-down-left" data-aos-duration="1000" data-aos-delay="100">
+              </div>
+              <div class="shape" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300">
+              </div>
+              <div class="shape" data-aos="fade-down-right" data-aos-duration="500" data-aos-delay="200">
+              </div>
+              <div class="shape" data-aos="fade-down-right" data-aos-duration="500" data-aos-delay="100">
+              </div>
+              <div class="shape" data-aos="zoom-out" data-aos-duration="2000" data-aos-delay="500">
+              </div>
+              <div class="shape" data-aos="fade-up-right" data-aos-duration="500" data-aos-delay="200">
+              </div>
+              <div class="shape" data-aos="fade-down-left" data-aos-duration="500" data-aos-delay="100">
+              </div>
+              <div class="shape" data-aos="fade-up" data-aos-duration="500" data-aos-delay="0">
+              </div>
+              <div class="shape" data-aos="fade-down" data-aos-duration="500" data-aos-delay="0">
+              </div>
+              <div class="shape" data-aos="fade-up-right" data-aos-duration="500" data-aos-delay="100">
+              </div>
+              <div class="shape" data-aos="fade-down-left" data-aos-duration="500" data-aos-delay="0">
+              </div>
+
+          </div>
+
+          <div class="container">
+              <div class="row align-items-center">
+                  <div class="col-md-6 order-2 order-md-1 text-center text-md-left">
+                      <h1 class="text-white font-weight-bold mb-4">TallyStix Wallet App</h1>
+                      <h3 class="text-white mb-5"> Multi Wallet | Decentralized | Unique </h3>
+                          <ul class="list-inline app-badge">
+      
+      <li class="list-inline-item">
+        <a href="https://"><img src="images/app/appple-store.jpg" alt="Apple Store" /></a>
+      </li>
+      
+      <li class="list-inline-item">
+        <a href="https://"><img src="images/app/google-play.jpg" alt="Google Play" /></a>
+      </li>
+    </ul>
+                  </div>
+                  <div class="col-md-6 text-center order-1 order-md-2">
+                      <img class="img-fluid" src="images/mobile.png" alt="screenshot" />
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      
+      
+      <section class="section pt-0 position-relative pull-top">
+          <div class="container">
+              <div class="rounded shadow p-5 bg-white">
+                  <div class="row">
+                      <div class="col-lg-4 col-md-6 mt-5 mt-md-0 text-center">
+                          <i class="ti-paint-bucket text-secondary h1"></i>
+                          <h3 class="mt-4 text-capitalize h5 ">Unchain Assets</h3>
+                          <p class="regular text-muted">Don't lock yourself in and don't let others do that to you.</p>
+                      </div>
+                      <div class="col-lg-4 col-md-6 mt-5 mt-md-0 text-center">
+                          <i class="ti-shine text-secondary h1"></i>
+                          <h3 class="mt-4 text-capitalize h5 ">Go Borderless</h3>
+                          <p class="regular text-muted">Bypass conditional barriers and access markets globally.</p>
+                      </div>
+                      <div class="col-lg-4 col-md-12 mt-5 mt-lg-0 text-center">
+                          <i class="ti-thought text-secondary h1"></i>
+                          <h3 class="mt-4 text-capitalize h5 ">Stay Private</h3>
+                          <p class="regular text-muted">Do not leak your private and financial data to the world.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+</section>
+
+  
+
+ <section class="service section bg-gray">
+      <div class="container-fluid p-0">
+          <div class="row">
+              <div class="col-lg-12">
+                  <div class="section-title">
+                      <h3>Sleek Crypto And NFT Wallet</h3>
+                      <p><a href="https://">TallyStix</a> makes
+                         Easy and seamlesss transaction and experience</p>
+                  </div>
+              </div>
+          </div>
+          <div class="row no-gutters">
+              <div class="col-lg-6 align-self-center">
+                  <div class="service-thumb left" data-aos="fade-right">
+                      <img class="img-fluid" src="images/tallystixdouble.png" alt="iphone-ipad">
+                      </div>
+              </div>
+              <div class="col-lg-5 mr-auto align-self-center">
+                  <div class="service-box">
+                      <div class="row align-items-center">
+                          <div class="col-md-6 col-xs-12">
+                              <div class="service-item">
+                                  <i class="ti-bookmark"></i>
+                                  <h3>DEFi Enabled</h3>
+                                  <p>Swap assets, stake assets and interact with any DeFi service via WalletConnect.</p>
+                              </div>
+                          </div>
+                          <div class="col-md-6 col-xs-12">
+                              <div class="service-item">
+                                  <i class="ti-pulse"></i>
+                                  <h3>Investor Oriented</h3>
+                                  <p>Discover and navigate crypto markets with institutional-grade analytics.</p>
+                              </div>
+                          </div>
+                          <div class="col-md-6 col-xs-12">
+                              <div class="service-item">
+                                  <i class="ti-bar-chart"></i>
+                                  <h3>Crypto and NFT Enabled</h3>
+                                  <p>Store your crypto assets and NFT collections like never before</p>
+                              </div>
+                          </div>
+                          <div class="col-md-6 col-xs-12">
+                              <div class="service-item">
+                                  <i class="ti-panel"></i>
+                                  <h3>TOR Enabled</h3>
+                                  <p>Keep the context of your connection private even from your internet provider.</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+
+
+  
+
+  <section class="video-promo section bg-1">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12">
+                  <div class="content-block">
+    
+                      <h2>TallyStix Wallet App Intro</h2>
+    
+
+                      <p>Explore TallyStix Today</p>
+    
+
+                      <a data-fancybox href="https://www.youtube.com/">
+                          <i class="ti-control-play video"></i>
+                      </a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+
+
+  <section class="call-to-action-app section bg-blue">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12">
+                  <h2>Join TallyStix</h2>
+                  <p>Download now Available on <a href="https://">TallyStix</a> free forever!
+                      <br />and enjoy limitless transaction at your fingertips</p>
+                  <ul class="list-inline">
+                      <li class="list-inline-item">
+                          <a href="https://" class="btn btn-rounded-icon">
+                              <i class="ti-apple"></i>
+                              Iphone
+                          </a>
+                      </li>
+                      <li class="list-inline-item">
+                          <a href="https://" class="btn btn-rounded-icon">
+                              <i class="ti-android"></i>
+                              Android
+                          </a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </section>
+
+
+
+
+
+
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -39,5 +278,95 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-  </body>
+
+
+    
+
+
+
+    
+    <!--============================
+=            Footer            =
+=============================-->
+<footer>
+  <div class="footer-main">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-12 m-md-auto align-self-center">
+          <div class="block">
+            <a href="index.html"><img src="images/logo-alt.png" alt="footer-logo"></a>
+            <!-- Social Site Icons -->
+            <ul class="social-icon list-inline">
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/"><i class="ti-facebook"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://twitter.com/"><i class="ti-twitter"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.instagram.com/"><i class="ti-instagram"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="col-9 mt-5 mt-lg-0">
+          <div class="block-2" id="about">
+            <!-- heading -->
+            <h6>About Us</h6>
+            <!-- links -->
+            <p>
+              The idea behind the TallyStix wallet is that information was once inscribed on “Tally Sticks” 30,000 years ago. The fact that tally sticks were still used to record financial transactions in England from the 13th to the 19th century places them among the most resilient storage devices in history. The sizes of the notches represented currency units.
+
+The tally stick was a primitive memory aid used to record and document numbers, quantities, and messages (or simply tally). Tallies are now used as currency for a variety of purposes, including messaging, scheduling, and even currency. They have become so common in financial and legal transactions.
+
+The decentralized, non-custodial peer-to-peer exchange model used for digital asset leveraging is brought back by the Tallystix wallet. Tokenization, a Web3 platform, and an open source cryptocurrency wallet are all combined in a TallyStix wallet.
+
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3 col-6 mt-5 mt-lg-0">
+          <div class="block-2">
+            <!-- heading -->
+            <h6>More</h6>
+            <!-- links -->
+            <ul>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="text-center bg-dark py-4">
+    <small class="text-secondary">Copyright &copy; <script>document.write(new Date().getFullYear())</script>. Designed &amp; Developed by <a href="https://roguereality.co">Rogue Reality</a></small class="text-secondary">
+  </div>
+</footer>
+
+
+  <!-- To Top -->
+  <div class="scroll-top-to">
+    <i class="ti-angle-up"></i>
+  </div>
+    
+
+<!-- JAVASCRIPTS -->
+<script src="plugins/jquery/jquery.min.js"></script>
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<script src="plugins/slick/slick.min.js"></script>
+<script src="plugins/fancybox/jquery.fancybox.min.js"></script>
+<script src="plugins/syotimer/jquery.syotimer.min.js"></script>
+<script src="plugins/aos/aos.js"></script>
+
+<script src="js/script.js"></script>
+
+
+</body>
+
+
+
+  
+
 </html>
