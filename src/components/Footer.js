@@ -2,7 +2,7 @@ import React from 'react';
 
 function Footer() {
     return (
-<div>
+<footer>
   <div className="footer-main">
     <div className="container">
       <div className="row">
@@ -41,8 +41,9 @@ function Footer() {
     <div className="text-secondary">Copyright &copy; <script>document.write(new Date().getFullYear())</script>. Designed &amp; Developed by <a href="https://">Rogue Reality</a>
   </div>
 </div>
-  
-</div>
+</footer>
+
+
     );
 }
 
